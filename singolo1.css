@@ -1,0 +1,202 @@
+html { 
+    font-size: calc(1em + 1vw); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav, .contentSlider, .contentServices, .contentPortfolio, .contentAboutUs, .contentGetAQuote, .footerContent {
+    width: 92%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Lato-Black';
+    src: url('assets/Lato/Lato-Black.ttf');
+  }
+
+@font-face {
+font-family: 'Lato-Light';
+src: url('assets/Lato/Lato-Light.ttf');
+}
+
+@font-face {
+font-family: 'Lato-Bold';
+src: url('assets/Lato/Lato-Bold.ttf');
+}
+
+@font-face {
+font-family: 'Lato-Regular';
+src: url('assets/Lato/Lato-Regular.ttf');
+}
+
+header {
+    height: 4em;
+    background-color: #2d303a;
+    position: relative;
+}
+
+#headerBottom { 
+    background-color: rgb(50, 55, 70);
+    height: 8px;
+    width: inherit;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    border: none;
+}
+
+#brand {
+    font-size: 1.05em;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+}
+
+nav {
+    padding: 1.32em 0;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 0.45em;
+    line-height: 6px;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.dot {
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #494e62;
+    margin: 0 0.54em;
+    vertical-align: middle;
+}
+
+nav ul li a:visited {
+    color: #f06c64;
+}
+
+a {
+    text-decoration: none;
+}
+
+#slider {
+    padding: 2.5em 0;
+    background: url('assets/Bg.png');
+    position: relative;
+}
+
+.contentSlider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentSlider i {
+    font-size: 2em;
+    color: #ca4549;
+}
+
+.contentSlider i:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.contentSlider img[alt='verticalIphone'] {
+    width: 10.5em;
+    height: 21.2em;
+}
+
+.contentSlider img[alt='horizontalIphone'] {
+    width: 21.2em;
+    height: 10.5em;
+}
+
+#slider img[alt='bgBottom'] {
+    height: 8px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#services {
+    padding: 1.75em 0;
+    background: #F2F2F2;
+}
+
+#services h2{
+    font-size: 1.5em;
+    line-height: 0.7em;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+}
+  
+#services h2 + p {
+    font-size: 0.8em;
+    line-height: 1.4em;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+#services #firstListBlock, #secondListBlock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+#firstListBlock h3, #secondListBlock h3 {
+    color: #666d89;
+    font-family: "Lato";
+    font-size: 0.8em;
+}
+
+#firstListBlock p, #secondListBlock p {
+    font-size: 0.55em;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+}
+
+#firstListBlock li, #secondListBlock li {
+    width: 12em;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#firstListBlock li img, #secondListBlock li img{
+   width: 2.5em;
+   height: 2.5em;
+   padding: 0 15px 15px;
+   margin-left: -2em;
+}
