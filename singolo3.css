@@ -1,0 +1,132 @@
+@import 'singolo1.css';
+@import 'singolo2.css';
+
+#getAQuote {
+    padding: 2.5em 0;
+    background: url('assets/BgRed.png');
+    width: 100%;
+    position: relative;
+}
+
+#getAQuote h1 {
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+} 
+
+#getAQuote p {
+    font-size: 0.8em;
+    line-height: 1.6em;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+} 
+
+#formAndSidebar {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    width: 66%;
+}
+
+#sidebar {
+    width: 32%;
+}
+form input, form textarea {
+    height: 3em;
+    margin-bottom: 20px;
+    border: none;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    background-color: #d6564f;
+    color: rgb(244, 140, 143);
+    padding: 15px;
+}
+
+form textarea {
+    height: 20em;
+}
+
+#formAndSidebar form input[type='submit'] {
+    box-sizing: border-box;
+    font-size: 0.5em;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+form input[type='submit']:hover {
+    border: 1px solid #d6564f;
+    color: #d6564f;
+    background: rgb(244, 140, 143);
+}
+
+::placeholder {
+    font-size: 1em;
+    color: rgb(244, 140, 143);
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+#sidebar h5 {
+    font-size: 0.8em;
+    line-height: 0.8em;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0;
+}
+
+#sidebar p {
+    font-size: 0.556em;
+    line-height: 1.5em;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+#contactBar i {
+    padding-right: 3px;
+}
+
+img[alt='bgBottom'] {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 10px;
+}
+
+footer {
+    height: 2em;
+    background-color: #2d303a;
+    font-size: 0.75em;
+    padding: 1.2em;
+    color: #767e9e;
+}
+
+footer .icon-bar {
+    width: 17.5%;
+}
+
+footer .icon-bar i{
+    font-size: 1.5em;
+}
+
+footer .icon-bar span{
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.75em;
+    font-family: "Lato";
+    font-weight: 300;
+}
