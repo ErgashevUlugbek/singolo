@@ -192,6 +192,7 @@ a {
 }
 
 #firstListBlock li img, #secondListBlock li img{
+    width: 60px;
    max-width: 100%;
    height: auto;
    padding: 0 15px 15px;
