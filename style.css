@@ -198,7 +198,7 @@ a {
     height: auto;
     width: 60px;
     height: 60px;
-    flex-shrink: unset;
+    flex-shrink: 0;
     flex-wrap: nowrap;
    padding: 0 15px 15px;
    margin-left: -2em;
