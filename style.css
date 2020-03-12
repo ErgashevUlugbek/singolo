@@ -188,7 +188,7 @@ a {
     margin: 0;
     list-style: none;
     display: flex;
-    flex-shrink: unset;
+    flex-shrink: 0;
     flex-wrap: nowrap;
     align-items: center;
 }
