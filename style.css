@@ -176,8 +176,6 @@ a {
     margin-bottom: 0;
 }
 
-
-
 #firstListBlock p, #secondListBlock p {
     font-size: 12px;
     line-height: 2em;
@@ -196,6 +194,7 @@ a {
 #firstListBlock li img, #secondListBlock li img{
    width: 60px;
    height: 60px;
+   size: 100%;
    padding: 0 15px 15px;
    margin-left: -2em;
    margin-top: -25px;
