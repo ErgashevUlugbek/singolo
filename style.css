@@ -466,6 +466,10 @@ form input[type='submit']:hover {
     padding-right: 3px;
 }
 
+#contactBar a {
+    color: #f0d8d9;
+}
+
 img[alt='bgBottom'] {
     position: absolute;
     width: 100%;
