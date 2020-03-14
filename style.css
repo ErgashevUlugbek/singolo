@@ -426,6 +426,7 @@ a {
 
 form {
     width: 66%;
+    margin-bottom: 10px;
 }
 
 #sidebar {
@@ -444,13 +445,16 @@ form input, form textarea {
 }
 
 form textarea {
-    height: 220px;
+    height: 200px;
+    resize: none;
+    padding: 10px 15px;
 }
 
 #formAndSidebar form input[type='submit'] {
     box-sizing: border-box;
-    font-size: 15px;
-    padding: 10px;
+    font-size: 10px;
+    padding: 6px;
+    height: 32px;
     letter-spacing: 2px;
     font-family: 'Lato-Black';
     text-transform: uppercase;
@@ -468,13 +472,14 @@ form input[type='submit']:hover {
     font-family: "Lato-Regular";
 }
 
-#sidebar h5 {
+#sidebar h3 {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 18px;
+    letter-spacing: -0.1px;
     line-height: 1em;
     color: #f0d8d9;
-    font-family: "Lato-Black";
+    font-family: "Lato-Bold";
 }
 
 #sidebar p {
@@ -482,10 +487,16 @@ form input[type='submit']:hover {
     line-height: 1.8em;
     color: #f0d8d9;
     font-family: "Lato-Regular";
+    margin-top: -6px;
+    margin-left: 1px;
 }
 
 #contactBar {
-    margin-top: 15px;
+    margin-top: 23px;
+}
+
+#contactBar p {
+    margin: 0;
 }
 
 #contactBar i {
