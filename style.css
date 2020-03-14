@@ -37,6 +37,10 @@ nav, .contentSlider, .contentServices, .contentPortfolio, .contentAboutUs, .cont
     src: url('assets/Lato/Lato-Regular.ttf');
 }
 
+#services, #aboutUs, #getAQuote {
+    text-align: justify;
+}
+
 header {
     height: 95px;
     background-color: #2d303a;
